@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Imobiliária Lux</title>
+    <link rel="stylesheet" href="imobiliaria.css">
+    <!-- Link para o CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- Link para o CSS customizado -->
+  
+    <link rel="shortcut icon" href="img/Vese7e Imobiliaria.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vese7e Imobiliária</a> <img src="img/Vese7e Imobiliaria.png" height="50px" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Imóveis
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="preco.html">Preço</a></li>
+                          <li><a class="dropdown-item" href="categoria.html">Categorias</a></li>
+                    
+                        </ul>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho com Carrossel -->
+    <header id="home" class="hero-section text-center py-5">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1img.png" height="500px" class="d-block w-100" alt="Imóvel Luxo 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Apartamento de Luxo</h5>
+                        <p>Viva o sonho com a Imobiliária Lux</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2img.png" height="500px" class="d-block w-100" alt="Imóvel Luxo 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Casa dos Seus Sonhos</h5>
+                        <p>Espaço e conforto para sua família</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3img.png" height="500px" class="d-block w-100" alt="Imóvel Luxo 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cobertura Exclusiva</h5>
+                        <p>Um lugar perfeito para você e sua família</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+   
+
+
+
+
+
+
+
+
+
+    <!-- Seção de Imóveis -->
+    <section id="imoveis" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Imóveis</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Imóvel 1 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://monterre.com.br/app/uploads/2021/02/decorar-apartamento-de-luxo.jpg" height="250px" class="card-img-top" alt="Imóvel 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento de Luxo</h5>
+                            <p class="card-text">2 quartos, 1 banheiro, cozinha equipada.</p>
+                            <p class="font-weight-bold">R$ 350.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 2 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://admin.archshop.com.br/uploads/003_b39832c982.jpg" height="250px" class="card-img-top" alt="Imóvel 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa de Alto Padrão</h5>
+                            <p class="card-text">4 quartos, suíte master, piscina.</p>
+                            <p class="font-weight-bold">R$ 1.200.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 3 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/426050314.jpg?k=c390445bff4c6326227bb7cd5200ba6981b66d8ea5bb53e155d4fcea9186ba86&o=&hp=1" height="250px"class="card-img-top" alt="Imóvel 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Cobertura Exclusiva</h5>
+                            <p class="card-text">3 quartos, vista panorâmica, jacuzzi.</p>
+                            <p class="font-weight-bold">R$ 2.500.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section id="imoveis-1" class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Imóvel 4 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://admin.archshop.com.br/uploads/001_261511aea8.jpg" height="250px" class="card-img-top" alt="Imóvel 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa Moderna</h5>
+                            <p class="card-text">3 quartos, 2 banheiros, garagem para 2 carros.</p>
+                            <p class="font-weight-bold">R$ 850.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 5 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://luxury.invexo.com.br/wp-content/uploads/2024/11/exclusivo-apartamento-de-3-quartos-com-vista-para-a-orla-de-leblon-rio-de-janeiro-rj-1.jpg" height="250px" class="card-img-top" alt="Imóvel 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento Exclusivo</h5>
+                            <p class="card-text">2 suítes, varanda gourmet, área de lazer completa.</p>
+                            <p class="font-weight-bold">R$ 1.100.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 6 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://images.homify.com/v1461070439/p/photo/image/1466367/guarajuba_corrigida.jpg" height="250px" class="card-img-top" alt="Imóvel 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa de Praia</h5>
+                            <p class="card-text">4 quartos, 3 banheiros, vista para o mar.</p>
+                            <p class="font-weight-bold">R$ 1.500.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+    <section id="imoveis-2" class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Imóvel 7 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://arquitectopablorestrepo.com/wp-content/uploads/2022/03/Diseno-casa-familiar-el-bambu-3.jpg" height="250px" class="card-img-top" alt="Imóvel 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa Familiar</h5>
+                            <p class="card-text">3 quartos, 2 banheiros, quintal amplo.</p>
+                            <p class="font-weight-bold">R$ 600.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 8 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://img.freepik.com/fotos-gratis/villa-com-piscina-de-luxo-espetacular-design-contemporaneo-arte-digital-imoveis-casa-casa-e-propriedade-ge_1258-150765.jpg" height="250px" class="card-img-top" alt="Imóvel 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Villa de Luxo</h5>
+                            <p class="card-text">5 quartos, piscina, spa e campo de futebol.</p>
+                            <p class="font-weight-bold">R$ 3.000.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 9 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://helbor.blob.core.windows.net/medias/website-institucional/apartamento_compacto_63dd5d9be9.jpg" height="250px" class="card-img-top" alt="Imóvel 9">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento Compacto</h5>
+                            <p class="card-text">1 quarto, 1 banheiro, localização central.</p>
+                            <p class="font-weight-bold">R$ 250.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+    <section id="imoveis-3" class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Imóvel 10 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://static.arboimoveis.com.br/AP1625_SUPPOR/apartamento-frente-mar-com-4-dormitorios-a-venda-enseada-azul-guarapari-es-support-corretora-de-imoveis1677164568478tnxgo.jpg" height="250px" class="card-img-top" alt="Imóvel 10">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento de Frente para o Mar</h5>
+                            <p class="card-text">2 quartos, 1 suíte, varanda com vista para o oceano.</p>
+                            <p class="font-weight-bold">R$ 950.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 11 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://imgs.dreamcasa.com.br/2425x1616/dist/blog/imgs/2021/12/decoracao-minimalista-apartamento.jpg" height="250px" class="card-img-top" alt="Imóvel 11">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento Moderno</h5>
+                            <p class="card-text">3 quartos, 2 banheiros, área gourmet.</p>
+                            <p class="font-weight-bold">R$ 850.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Imóvel 12 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_800,h_534/https://www.bontempo.com.br/blog/wp-content/uploads/2023/06/espaco-gourmet-com-marcenaria-personalizada-por-sophia-romcy-e-bontempo-fortaleza-1024x683.jpg" height="250px" class="card-img-top" alt="Imóvel 12">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa com Espaço Gourmet</h5>
+                            <p class="card-text">4 quartos, churrasqueira, piscina.</p>
+                            <p class="font-weight-bold">R$ 1.400.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+    
+    <section id="imoveis-4" class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Imóvel 13 -->
+                <div class="col">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="https://www.cbnmaringa.com.br/uploads_lg/30ccf91c5a6c2c752594939c24f0f63a.jpg" height="250px" class="card-img-top" alt="Imóvel 13">
+                        <div class="card-body">
+                            <h5 class="card-title">Chácara para Lazer</h5>
+                            <p class="card-text">3 quartos, área de lazer com churrasqueira.</p>
+                            <p class="font-weight-bold">R$ 450.000,00</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Imobiliária Lux | Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
